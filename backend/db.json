@@ -1,0 +1,207 @@
+{
+  "users": [
+    {
+      "id": "00060",
+      "name": "gustavo rodrigues",
+      "password": "senha forte",
+      "type": 7,
+      "level": 1,
+      "hp": 20,
+      "mp": 20,
+      "stats": {
+        "strength": 0,
+        "dexterity": 0,
+        "resistance": 0,
+        "intelligence": 0,
+        "charisma": 0,
+        "sanity": 0
+      },
+      "substats": [],
+      "bag": [],
+      "curses": "",
+      "profession": "0001",
+      "professionCharacteristic": []
+    }
+  ],
+  "professions": [
+    {
+      "id": "0001",
+      "name": "Médico",
+      "professionCharacteristic": [],
+      "defaultValues": {
+        "hp": 25,
+        "mp": 0,
+        "stats": {
+          "strength": 0,
+          "dexterity": 2,
+          "resistance": 0,
+          "intelligence": 3,
+          "charisma": 0,
+          "sanity": 95
+        },
+        "substats": [
+          "Curar",
+          "Primieros Socorros",
+          "Dissecar",
+          "Higienizar"
+        ],
+        "bag": []
+      }
+    },
+    {
+      "id": "0002",
+      "name": "Detetive",
+      "professionCharacteristic": [],
+      "defaultValues": {
+        "hp": 30,
+        "mp": 0,
+        "stats": {
+          "strength": 1,
+          "dexterity": 3,
+          "resistance": 0,
+          "intelligence": 6,
+          "charisma": 2,
+          "sanity": 65
+        },
+        "substats": [
+          "Pesquisar",
+          "Interrogar",
+          "Observar"
+        ],
+        "bag": []
+      }
+    },
+    {
+      "id": "0003",
+      "name": "Caçador",
+      "professionCharacteristic": [],
+      "defaultValues": {
+        "hp": 55,
+        "mp": 0,
+        "stats": {
+          "strength": 3,
+          "dexterity": 2,
+          "resistance": 6,
+          "intelligence": 0,
+          "charisma": 2,
+          "sanity": 70
+        },
+        "substats": [
+          "Rastrear",
+          "Arrombar",
+          "Sobrevivência",
+          "Contra atacar"
+        ],
+        "bag": []
+      }
+    },
+    {
+      "id": "0004",
+      "name": "Ocultista",
+      "professionCharacteristic": [],
+      "defaultValues": {
+        "hp": 15,
+        "mp": 25,
+        "stats": {
+          "strength": 0,
+          "dexterity": 4,
+          "resistance": 0,
+          "intelligence": 3,
+          "charisma": 0,
+          "sanity": 80
+        },
+        "substats": [
+          "Rastrear",
+          "Arrombar",
+          "Localizar",
+          "Sobrevivência"
+        ],
+        "bag": []
+      }
+    },
+    {
+      "id": "0004",
+      "name": "Xerif",
+      "professionCharacteristic": [],
+      "defaultValues": {
+        "hp": 25,
+        "mp": 0,
+        "stats": {
+          "strength": 3,
+          "dexterity": 10,
+          "resistance": 0,
+          "intelligence": 0,
+          "charisma": 0,
+          "sanity": 50
+        },
+        "substats": [
+          "Mirar",
+          "Intimidar"
+        ],
+        "bag": []
+      }
+    }
+  ],
+  "scps": [
+    {
+      "id": "SCP-173",
+      "name": "A Escultura",
+      "dangerLevel": 3,
+      "classObject": "Euclid",
+      "imgUrl": "https://www.postavy.cz/foto/scp-173-foto.jpg",
+      "procedures": "Manter SCP-173 em uma câmara de contenção de 5m x 5m com paredes de concreto reforçado.",
+      "discovery": "SCP-173 foi descoberto em [DATA] em [LOCAL].",
+      "description": "SCP-173 é uma estátua escultural construída a partir de concreto e tinta spray."
+    },
+    {
+      "id": "SCP-096",
+      "name": "O Shy Guy",
+      "dangerLevel": 4,
+      "classObject": "Keter",
+      "imgUrl": "https://pm1.aminoapps.com/7148/1a09155dc89f4bf662033067bd243f15559c299dr1-890-898v2_00.jpg",
+      "procedures": "SCP-096 deve ser mantido em uma cela de contenção de 5m x 5m de aço reforçado, com portas à prova de som.",
+      "discovery": "SCP-096 foi descoberto em [DATA] após relatos de ataques em [LOCAL].",
+      "description": "SCP-096 é uma entidade humanoide extremamente sensível que se torna agressiva quando alguém vê seu rosto."
+    },
+    {
+      "id": "SCP-049",
+      "name": "A Peste Médica",
+      "dangerLevel": 3,
+      "classObject": "Euclid",
+      "imgUrl": "https://scp-wiki.wdfiles.com/local--files/scp-049/SCP-049-Image-2.png",
+      "procedures": "SCP-049 deve ser mantido em uma cela de contenção de 3m x 3m, com acesso restrito a pessoal autorizado.",
+      "discovery": "SCP-049 foi encontrado em [DATA] em [LOCAL] após relatos de atividade anormal.",
+      "description": "SCP-049 é uma entidade humanoide com uma aparência reminiscente de um médico da peste do século XV."
+    },
+    {
+      "id": "SCP-682",
+      "name": "O Réptil Indestrutível",
+      "dangerLevel": 6,
+      "classObject": "Keter",
+      "imgUrl": "https://i.pinimg.com/originals/f1/5e/2d/f15e2d704a6ca9d2f507d5a9cc8b9cd5.png",
+      "procedures": "SCP-682 deve ser mantido em uma cela de contenção subaquática de alta segurança.",
+      "discovery": "SCP-682 foi descoberto em [DATA] após uma série de incidentes envolvendo ataques a pessoal e outros SCPs.",
+      "description": "SCP-682 é uma criatura réptil anômala extremamente resistente e hostil."
+    },
+    {
+      "id": "SCP-999",
+      "name": "O monstro das cócegas",
+      "dangerLevel": 1,
+      "classObject": "Seguro",
+      "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV4nukXg7s_N9-KUAzo5OwagNsrtfAvjSJYd5Ap0GxCDAAHY-95BU_zLmoyQExNdFD8UU&usqp=CAU",
+      "procedures": "É permitido que SCP-999 percorra a instalação livremente se assim o desejar, caso contrário, deve ficar no seu curral. Não é permitido que saia de seu curral durante a noite, ou deixe os terrenos da instalação a qualquer momento. O curral deve ser mantido limpo, e a comida, reposta duas vezes ao dia. É permitido a entrada de qualquer funcionário na área de contenção de SCP-999, mas apenas quando estes não estejam atribuídos a outras tarefas, ou se estiverem durante um intervalo. Deve-se brincar com o indivíduo quando ele ficar entediado, e sempre se dirigir a ele num tom de voz calmo e suave.",
+      "discovery": "-",
+      "description": "SCP-999 parece ser uma grande e amorfa massa gelatinosa, translúcida, laranja e viscosa; pesa cerca de 54 kg, e tem uma consistência semelhante a de manteiga de amendoim. O tamanho e forma do indivíduo mudam constantemente, entretanto, na maior parte do tempo ele tem o tamanho de um grande pufe. A composição de SCP-999 é baseada em óleo, mas consiste de uma substância desconhecida pela ciência moderna. Além da membrana fina e transparente que envolve sua massa laranja, o indivíduo parece não ter órgãos que possam ser notados. O comportamento do indivíduo é descrito como brincalhão, e pode ser comparado ao de um cachorro: quando abordado, SCP-999 irá reagir com uma animação excessiva, deslizando até a pessoa mais próxima e pulando em cima dela, a “abraçando” com um par de pseudópodes enquanto acaricia seu rosto com um terceiro pseudópode, o tempo todo emitindo grogolejos agudos e ruídos abafados. A superfície de SCP-999 exala um odor agradável, que varia de pessoa para pessoa. A lista de aromas já registrados inclui: chocolate, roupa recém-lavada, bacon, rosas e massinha de modelar Play-Doh™. Tocar SCP-999 causa uma onda de euforia imediata. Quanto mais se é exposto a ele, mais intensa é essa euforia, perdurando por um longo tempo mesmo após a criatura se afastar. A atividade favorita do indivíduo é atacar outros com cócegas: ele costuma envolver uma pessoa por completo, do pescoço para baixo, e faz cócegas nela até pedirem para parar (mas nem sempre atende a esses pedidos). A criatura vai interagir com qualquer um, mas foi notado que ela parece ter interesse em especial naqueles que estão infelizes, ou machucados de alguma forma. Depois de interagir com SCP-999, pessoas sofrendo de depressão severa retornam completamente curadas, e com uma visão muito mais positiva da vida. A possibilidade de comercializar pedaços do SCP-999 como antidepressivo tem sido discutida. Em adição ao seu comportamento brincalhão, SCP-999 parece amar toda espécie de animal (principalmente humanos); ele se recusa a comer qualquer tipo de carne e até arrisca a própria vida para salvar a de outros, se colocando na frente de pessoas para tomar projéteis atirados contra elas (o nível intelectual do indivíduo continua a ser um tema debatido: apesar do seu comportamento infantil, ele parece entender a linguagem humana e tecnologia moderna, incluindo armas). A dieta da criatura se consiste inteiramente em doces, sendo M&M’s™ e Necco Wafers™ seus favoritos. Seus métodos de ingestão são similares àqueles observados em amebas."
+    },
+    {
+      "id": "SCP-030",
+      "name": "O Homunculo",
+      "dangerLevel": 1,
+      "classObject": "Seguro",
+      "imgUrl": "https://img.wattpad.com/a2243a529224b938f7be8b1c27a578815306f62a/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f324a5454756b6e47385f51522d773d3d2d3533352e313631306637343834643966666461393531333030343036303633382e6a7067",
+      "procedures": "SCP-030 deve ser mantido na Área-17 em uma cela de contenção para humanoides modificada. Devem ser feitas algumas pequenas alterações para acomodar sua estatura, como a inclusão de uma área de trabalho e cadeira dos tamanhos apropriados. A iluminação da cela pode ser alterada, a pedido de SCP-030, até um máximo de 2000 lúmens, através de um interruptor simples. Caso seja necessário tornar SCP-030 inerte, funcionários podem apagar a iluminação com um interruptor externo e utilizar cortinas de blecaute, se necessário. São disponibilizados equipamentos padrão de visão noturna para a observação de SCP-030 em seu estado inerte. SCP-030 pode solicitar materiais para suas pesquisas pessoais a cada 90 dias. Todos os materiais anteriormente concedidos devem ser apreendidos e destruídos antes que novos sejam entregues. Todos os materiais devem ser avaliados e analisados pelas equipes de segurança e de pesquisa. SCP-030 não deve ter acesso a periódicos ou textos científicos modernos, e obras de ficção devem ser restritas àquelas produzidas antes de 1623 DC, para preservar a integridade de seu conhecimento inato. Funcionários que desejarem consultar SCP-030 por escrito, devem dar entrada em um pedido formal (documento #030-RS/B) para o pesquisador-supervisor encarregado. Toda correspondência deve ser detida. Funcionários que desejarem consultar SCP-030 em pessoa, devem fazer um pedido formal para a direção da Área (documentos 030-RP/A, 17-030/A) com pelo menos 30 dias de antecedência à data desejada. Todas as consultas devem ser gravadas e arquivadas. Funcionários sênior de pesquisa podem solicitar que SCP-030 seja temporariamente removido de sua contenção por até uma hora, para verificar a opinião do objeto sobre materiais não-restritos ou eventos ocorridos dentro da Área-17. Sob nenhuma circunstância SCP-030 deve deixar os confins da Área-17. Estas solicitações devem ser apresentadas pessoalmente para a direção e para a equipe de segurança da Área com 30 dias de antecedência. Todas as observações ocorridas durante a remoção de SCP-030 devem ser registradas e arquivadas. SCP-030 foi equipado com um dispositivo de rastreamento (código de controle de inventário #030-17-1), para que sua localização dentro da Área-17 possa ser determinada a qualquer momento.",
+      "discovery": "-",
+      "description": "SCP-030 parece ser um humano sem pêlos e sem gênero, acinzentado e medindo 71 centímetros de altura e pesando 12,70 quilogramas. Seus olhos de coloração azul sólida não possui iris ou pupila discerníveis, lembrando pequenas safiras lapidadas. SCP-030 possui voz andrógina, com um sotaque inglês pronunciado sem correspondência com nenhuma região moderna. É capaz de conversar, ler e escrever em grego, latim, italiano, inglês, espanhol e português, além de duas (2) outras línguas não identificadas, apesar da insistência de SCP-030 de que elas deveriam ser 'conhecimento comum'. SCP-030 também demonstra conhecimentos de física, química, astronomia, matemática e horticultura, equivalentes aos conhecimentos acadêmicos do século 17. Ademais, SCP-030 demonstra conhecimentos nestas áreas ligados a métodos científicos que não são encontrados em registros históricos. Essas metodologias alternativas e suas aplicações às ciências naturais são uma das utilidades das consultas com SCP-030. SCP-030 permanece ativo desde que exposto a uma fonte de luz de pelo menos 15 lúmens, a pelo menos 1,5 metros de distância. Na ausência de iluminação, SCP-030 torna-se inerte, manifestando perda de consciência e deixando de demonstrar sinais externos de vida. Dentro de cinco a dez (5-10) segundos após ser reexposto a luz, SCP-030 torna-se novamente ativo, se comportando como se tivesse despertado de um sono leve, independente de quanto tempo sua inatividade tenha durado. SCP-030 não parece precisar destes períodos de inatividade como um humano precisa de sono, e expressou o desejo de permanecer ativo por quanto tempo for possível. Biópsias de SCP-030 apresentaram resultados inconclusivos. Apesar de a maioria das amostras ser composta majoritariamente de argila das regiões inglesas de Kent, Surrey e Londres, também são encontrados traços de mandrágora (Mandragora officinarum), lixívia, mercúrio e sangue humano. SCP-030 expressou que uma cirurgia exploratória completa para determinar seu funcionamento causaria, potencialmente o fim de sua existência. Amostras removidas de SCP-030 não regeneram e seu recolhimento foi interrompido para preservar sua integridade. Apesar de SCP-030 poder ser danificado, ele não demonstra sentir dor e simplesmente remodela porções deformadas de sua anatomia. Notavelmente, SCP-030 não pode ser moldado diretamente por mãos humanas, embora diversas ferramentas sejam capazes de alterar sua superfície. SCP-030 não respira, se alimenta ou produz excreções, embora com pouca frequência solicite um banho. SCP-030 se denomina como 'Ariel' e frequentemente pede que os funcionários o chamem pelo nome. Perguntas relacionadas à criação de SCP-030 são rotineiramente respondidas com a afirmação padrão: 'Me pediram que eu esquecesse essa informação. Lamento muito.' SCP-030 dá esta resposta com o mesmo tom de voz e cadência toda vez que questionado sobre sua origem ou sobre seu criador. SCP-030 foi descoberto em 12/06/████ durante uma inspeção arqueológica no distrito londrino de Mortlake, obrigatória para a construção de um estacionamento. O objeto estava enterrado a cerca de 2,7 metros abaixo do nível da rua, contido em um pequeno sarcófago de pedra. O sarcófago não possui nenhuma inscrição e presumiu-se como contendo um cadáver de criança, já que outros túmulos foram encontrados na área. A tampa do sarcófago foi destruída durante a escavação, expondo SCP-030 à luz. Após ser atingido pelos raios do sol, SCP-030 despertou de seu estado inerte tornando-se moderadamente ativo após alguns segundos, saudando a equipe de escavação com: 'Boa tarde'. Um membro da equipe de reconhecimento da Fundação posicionado em Londres foi convocado após algumas horas e obteve o objeto sem resistência. As poucas testemunhas foram tratadas com amnésicos e liberadas."
+    }
+  ]
+}
