@@ -52,7 +52,7 @@ export const Login = () => {
     },[])
 
     return(
-        <div className="w-screen h-screen justify-center sm:w-auto sm:h-auto sm:p-6 bg-gray-300 flex flex-col items-center rounded shadow-md gap-3">
+        <div className="w-full h-full justify-center sm:w-auto sm:h-auto p-4 bg-gray-300 flex flex-col items-center rounded shadow-md gap-3">
             <IconScp />
             <Input onChange={e => setName(e.target.value)} Icon={User} placeholder="Nome"/>
             <Input onChange={e => setPassword(e.target.value)} Icon={Lock} placeholder="Senha"/>
