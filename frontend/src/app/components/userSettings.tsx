@@ -30,31 +30,39 @@ export const UserSettings = () => {
             <Input 
                 onChange={e => {user.name = e.target.value}} 
                 defaultValue={user.name} 
+                max={user.maxHp}
                 legend="Nome" 
+                disabled
                 Icon={User} />
             <div className="w-full grid grid-cols-2 gap-2">
                 <Input 
                     type="number" 
                     onChange={e => {user.hp = parseFloat(e.target.value)}} 
                     defaultValue={user.hp} 
-                    legend="Hp" 
+                    max={user.maxHp}
+                    min={user.maxHp/2*-1}
+                    legend={`Hp - ${user.maxHp}/${user.maxHp/2*-1}`}
                     Icon={Heart} />
                 <Input 
                     type="number" 
                     onChange={e => {user.mp = parseFloat(e.target.value)}} 
                     defaultValue={user.mp} 
-                    legend="Mp" 
+                    max={user.maxMp}
+                    min={user.maxMp/2*-1}
+                    legend={`Mp - ${user.maxMp}/${user.maxMp/2*-1}`}
                     Icon={Waves} />
                 <Input 
                     type="number" 
                     onChange={e => {user.level = parseFloat(e.target.value)}} 
                     defaultValue={user.level}
                     legend="Level" 
+                    disabled
                     Icon={GanttChart} />
                 <Input 
                     type="number" 
                     onChange={e => {user.type = parseFloat(e.target.value)}} 
                     defaultValue={user.type}
+                    disabled
                     legend="Tipo" 
                     Icon={SquareUserRound} />
             </div>
@@ -64,36 +72,42 @@ export const UserSettings = () => {
                     type="number" 
                     onChange={e => {user.stats.strength = parseFloat(e.target.value)}} 
                     defaultValue={user.stats.strength}
+                    disabled
                     legend="Força" 
                     Icon={Sword} />
                 <Input 
                     type="number" 
                     onChange={e => {user.stats.dexterity = parseFloat(e.target.value)}} 
                     defaultValue={user.stats.dexterity}
+                    disabled
                     legend="Destreza" 
                     Icon={Rabbit} />
                 <Input
                     type="number" 
                     onChange={e => {user.stats.intelligence = parseFloat(e.target.value)}} 
                     defaultValue={user.stats.intelligence}
+                    disabled
                     legend="Inteligência"
                     Icon={Brain} />
                 <Input
                     type="number" 
                     onChange={e => {user.stats.resistance = parseFloat(e.target.value)}} 
                     defaultValue={user.stats.resistance}
+                    disabled
                     legend="Resistência"
                     Icon={Shield} />
                 <Input
                     type="number" 
                     onChange={e => {user.stats.charisma = parseFloat(e.target.value)}} 
                     defaultValue={user.stats.charisma}
+                    disabled
                     legend="Carisma"
                     Icon={Smile} />
                 <Input
                     type="number" 
                     onChange={e => {user.stats.sanity = parseFloat(e.target.value)}} 
                     defaultValue={user.stats.sanity}
+                    disabled
                     legend="Sanidade"
                     Icon={Activity} />
             </div>

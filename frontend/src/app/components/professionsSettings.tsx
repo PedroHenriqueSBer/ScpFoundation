@@ -3,6 +3,7 @@
 import { useUser } from "../hooks/useUser"
 import { DangerLevel } from "./dangerLevel"
 import { ExpandedComponents } from "./expandedCompoent"
+import { Input } from "./input"
 
 export const Professions = () => {
     
@@ -35,8 +36,20 @@ export const Professions = () => {
                             <div className="flex flex-col gap-2">
                                 <div>
                                     <span className="flex items-center gap-1"><h1 className="font-bold">Nível: </h1> <DangerLevel level={c.lvl} /></span>
-                                    <span className="flex items-center gap-1"><h1 className="font-bold">Gasto de mana: </h1>{c.mp}</span>
-                                    <span className="flex items-center gap-1"><h1 className="font-bold">Quantidade: </h1>{c.quantity}/{c.maxQuantity}</span>
+                                    {c.mp ? <span className="flex items-center gap-1"><h1 className="font-bold">Gasto de mana: </h1>{c.mp}</span> : <></>}
+                                    {c.quantity ? 
+                                        <div className="w-fit">
+                                            <Input 
+                                                type="number" 
+                                                legend={`Quantidade - ${c.maxQuantity}`} 
+                                                defaultValue={c.quantity} 
+                                                min={0}
+                                                max={c.maxQuantity}
+                                                onChange={e => c.quantity = parseInt(e.target.value)}/>
+                                        </div>
+
+                                            : 
+                                        <></>}
                                     <span className="flex items-center gap-1"><h1 className="font-bold">Tipo: </h1>{c.type}</span>
                                 </div>
                                 <div>

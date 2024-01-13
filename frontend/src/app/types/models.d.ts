@@ -26,9 +26,9 @@ export interface ICurses{
     title: string,
     lvl: number,
     description: string,
-    mp: number,
-    quantity: number, 
-    maxQuantity: number, 
+    mp?: number,
+    quantity?: number, 
+    maxQuantity?: number, 
     type: string
 }
 
