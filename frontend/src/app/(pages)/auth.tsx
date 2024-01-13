@@ -14,7 +14,10 @@ export function Auth(){
         const id = localStorage.getItem('id')
         if(id){
             userController.getById(id).then(u => {
-                setUser(u)
+                if(u.id)
+                    setUser(u)
+                else
+                    router.push('/')
             })
         }
         else
