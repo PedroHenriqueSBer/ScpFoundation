@@ -1,6 +1,6 @@
 import { api } from "../service/api";
 import { ILoginInputModel } from "../types/inputModel";
-import { IUser } from "../types/models";
+import { IBank, IScp, IUser } from "../types/models";
 
 const login = (input: ILoginInputModel) => {
     return new Promise<IUser>((resolve, reject) => {
@@ -14,7 +14,18 @@ const getById = (id: string) => {
     })
 }
 
+const save = (user: IUser, bank: IBank) => {
+    return new Promise<boolean>((resolve, reject) => {
+        api.post(`/user/save`,{
+            user,
+            bank
+        }).then(({data}) => resolve(data)).catch(error => reject(error));
+    })
+}
+
+
 export const userController = {
     login,
-    getById
+    getById,
+    save
 }
