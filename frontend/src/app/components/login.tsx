@@ -45,8 +45,11 @@ export const Login = () => {
         const id = localStorage.getItem('id')
         if(id){
             userController.getById(id).then(u => {
-                setUser(u)
-                router.push('/library')
+                if(u.id){
+                    setUser(u)
+                    router.push('/library')
+                }
+
             })
         }
     },[])
