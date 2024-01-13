@@ -41,7 +41,7 @@ def login():
         user = None
 
         for u in databaseObject.users:
-            if u["name"] == name and u["password"] == password:
+            if u["name"] == name.strip() and u["password"] == password.strip():
                 user = u
         
         if user:
