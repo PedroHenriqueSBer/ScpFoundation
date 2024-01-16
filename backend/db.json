@@ -5,13 +5,13 @@
             "bankId": "0001",
             "curses": [],
             "hp": 0,
-            "id": "00060",
+            "id": "00001",
             "level": 0,
             "maxHp": 0,
             "maxMp": 0,
             "mp": 0,
-            "name": "",
-            "password": "",
+            "name": "gustavo.rodrigues",
+            "password": "xl345t",
             "profession": "",
             "professionCharacteristic": [],
             "stats": {
@@ -36,11 +36,51 @@
     ],
     "professions": [
         {
-            "id": "0001",
-            "name": "M\u00e9dico",
+            "id": "00000",
+            "name": "",
             "professionCharacteristic": [],
             "defaultValues": {
-                "hp": 25,
+                "hp": 0,
+                "mp": 0,
+                "stats": {
+                    "strength": 0,
+                    "dexterity": 0,
+                    "resistance": 0,
+                    "intelligence": 0,
+                    "charisma": 0,
+                    "sanity": 0
+                },
+                "substats": [],
+                "bag": []
+            }
+        },
+        {
+            "id": "00001",
+            "name": "Médico",
+            "professionCharacteristic": [
+                {
+                    "title": "Analizar inimigo",
+                    "lvl": 0,
+                    "description": "Sua experiência como médico pode especificar o tipo de ferimento que alguem tem, os ferimentos podem ser: sem ferimento, ferimentos leves, ferimentos médios, ferimentos graves, ferimentos letais"
+                },
+                {
+                    "title": "Primeiros socorros",
+                    "lvl": 1,
+                    "description": "Caso você possuir o equipamento médico nescessario você poder gastar 3 turnos para salvar uma pessoa que está no estado morrendo, estabilizando ela de volta para 0 de vida mais 1d8+medicina"
+                },
+                {
+                    "title": "Inabalavel",
+                    "lvl": 1,
+                    "description": "Durante sua vida médica você já viu muitos corpos, caso você precise fazer um teste de sanidade por conta de um corpo morto ou até mesmo deformado, você tem vantagem no dado de sanidade"
+                },
+                {
+                    "title": "Ponto Fraco",
+                    "lvl": 2,
+                    "description": "caso você chegar perto o suficiente de uma criatura você pode rolar 1d20+inteligência, caso a criatura for menor ou igual ao seu nível de jogador, você precisará tirar 12 para ver os pontos fracos do inimigo caso for um nível maior você precisará tirar critico, caso for maior não é possivel ver os pontos fracos da criatura"
+                }
+            ],
+            "defaultValues": {
+                "hp": 20,
                 "mp": 0,
                 "stats": {
                     "strength": 0,
@@ -48,106 +88,12 @@
                     "resistance": 0,
                     "intelligence": 3,
                     "charisma": 0,
-                    "sanity": 95
+                    "sanity": 90
                 },
                 "substats": [
-                    "Curar",
-                    "Primieros Socorros",
                     "Dissecar",
-                    "Higienizar"
-                ],
-                "bag": []
-            }
-        },
-        {
-            "id": "0002",
-            "name": "Detetive",
-            "professionCharacteristic": [],
-            "defaultValues": {
-                "hp": 30,
-                "mp": 0,
-                "stats": {
-                    "strength": 1,
-                    "dexterity": 3,
-                    "resistance": 0,
-                    "intelligence": 6,
-                    "charisma": 2,
-                    "sanity": 65
-                },
-                "substats": [
-                    "Pesquisar",
-                    "Interrogar",
-                    "Observar"
-                ],
-                "bag": []
-            }
-        },
-        {
-            "id": "0003",
-            "name": "Ca\u00e7ador",
-            "professionCharacteristic": [],
-            "defaultValues": {
-                "hp": 55,
-                "mp": 0,
-                "stats": {
-                    "strength": 3,
-                    "dexterity": 2,
-                    "resistance": 6,
-                    "intelligence": 0,
-                    "charisma": 2,
-                    "sanity": 70
-                },
-                "substats": [
-                    "Rastrear",
-                    "Arrombar",
-                    "Sobreviv\u00eancia",
-                    "Contra atacar"
-                ],
-                "bag": []
-            }
-        },
-        {
-            "id": "0004",
-            "name": "Ocultista",
-            "professionCharacteristic": [],
-            "defaultValues": {
-                "hp": 15,
-                "mp": 25,
-                "stats": {
-                    "strength": 0,
-                    "dexterity": 4,
-                    "resistance": 0,
-                    "intelligence": 3,
-                    "charisma": 0,
-                    "sanity": 80
-                },
-                "substats": [
-                    "Rastrear",
-                    "Arrombar",
-                    "Localizar",
-                    "Sobreviv\u00eancia"
-                ],
-                "bag": []
-            }
-        },
-        {
-            "id": "0004",
-            "name": "Xerif",
-            "professionCharacteristic": [],
-            "defaultValues": {
-                "hp": 25,
-                "mp": 0,
-                "stats": {
-                    "strength": 3,
-                    "dexterity": 10,
-                    "resistance": 0,
-                    "intelligence": 0,
-                    "charisma": 0,
-                    "sanity": 50
-                },
-                "substats": [
-                    "Mirar",
-                    "Intimidar"
+                    "Operar",
+                    "Medicina"
                 ],
                 "bag": []
             }
